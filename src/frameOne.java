@@ -5,7 +5,7 @@
  */
 
 /**
- *
+ * @author peterpan
  * @author lucaj2022
  * @author rollercd2021
  * @author barkera2020
@@ -76,7 +76,7 @@ public class frameOne extends javax.swing.JFrame {
     /**
      * @param args the command line arguments
      */
-   
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton done;
