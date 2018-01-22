@@ -1,3 +1,7 @@
+package bankClasses.frames;
+
+import bankClasses.frames.mainFrame;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -5,17 +9,17 @@
  */
 
 /**
- * @author peterpan
+ *
  * @author lucaj2022
  * @author rollercd2021
  * @author barkera2020
  */
-public class frameOne extends javax.swing.JFrame {
+public class frameTwo extends javax.swing.JFrame {
     private mainFrame mf;
     /**
-     * Creates new form frameOne
+     * Creates new form frameTwo
      */
-    public frameOne(mainFrame frame) {
+    public frameTwo(mainFrame frame) {
         initComponents();
         mf = frame;
     }
@@ -34,7 +38,7 @@ public class frameOne extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setText("Frame One");
+        jLabel1.setText("Frame Two");
 
         done.setText("Done");
         done.addActionListener(new java.awt.event.ActionListener() {
@@ -47,21 +51,21 @@ public class frameOne extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(159, 159, 159)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(183, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(done)
                     .addComponent(jLabel1))
-                .addContainerGap(184, Short.MAX_VALUE))
+                .addGap(160, 160, 160))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(89, 89, 89)
+                .addGap(97, 97, 97)
                 .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 106, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 94, Short.MAX_VALUE)
                 .addComponent(done)
-                .addGap(68, 68, 68))
+                .addGap(72, 72, 72))
         );
 
         pack();
@@ -76,7 +80,7 @@ public class frameOne extends javax.swing.JFrame {
     /**
      * @param args the command line arguments
      */
-
+    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton done;
